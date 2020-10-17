@@ -1,0 +1,34 @@
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+th, td {
+    padding: 5px 10px;
+    /* color: black; */
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: right;
+    cursor: pointer;
+}
+/* th {
+    background-color: aqua;
+}
+td {
+    background-color: brown;
+} */
+td:hover {
+    background-color: darkslategray;
+}
+tr:first-child {
+    background-color: blueviolet;
+}
+tr:last-child {
+    background-color: lavender;
+    font-size: 1.5em;
+}
+tr:nth-child(3) {
+    color: green;
+}
